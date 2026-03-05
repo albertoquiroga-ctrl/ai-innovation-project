@@ -1,0 +1,27 @@
+# Expanded prompts from: inpainting-prompts.yaml
+# Generated — copy-paste into ComfyUI
+
+------------------------------------------------------------
+[modern_minimalist] Clean lines, neutral palette, less is more
+------------------------------------------------------------
+modern minimalist living room interior, clean lines, white walls, light oak hardwood floors, low-profile beige linen sofa,  simple wooden coffee table, single large abstract art piece, one fiddle leaf fig plant, warm natural daylight from large windows, interior design magazine photograph, architectural digest style, warm neutral tones, 8k, photorealistic
+
+------------------------------------------------------------
+[cozy_scandinavian] Warm, textured, hygge vibes
+------------------------------------------------------------
+cozy scandinavian living room, warm white walls, light wood furniture, plush cream boucle sofa with knit throw blanket, sheepskin rug, candles on wooden tray, floating wooden shelves with ceramics and books, soft warm lighting from table lamps, plants in ceramic pots, hygge atmosphere, interior photography, warm color grading
+
+------------------------------------------------------------
+[mid_century_modern] Retro-inspired, warm woods, statement pieces
+------------------------------------------------------------
+mid-century modern living room, walnut credenza, teak coffee table, mustard yellow velvet armchair, geometric patterned rug, brass arc floor lamp, abstract framed prints on white wall, warm wood tones throughout, natural daylight, vintage modern aesthetic, interior design editorial photography, warm tones
+
+------------------------------------------------------------
+[boho_eclectic] Layered, colorful, globally inspired
+------------------------------------------------------------
+bohemian eclectic living room, terracotta accent wall, rattan furniture, colorful moroccan rug, floor cushions, macrame wall hanging, hanging plants and trailing vines, woven baskets, warm string lights, layered textiles in earth tones, golden hour warm lighting, cozy lived-in aesthetic, interior lifestyle photography
+
+------------------------------------------------------------
+[coastal_calm] Beach-inspired, light and airy
+------------------------------------------------------------
+coastal calm living room, soft blue-grey walls, white shiplap accent, natural linen slipcovered sofa, driftwood coffee table, woven jute rug, blue and white ceramic vases, coral accents, sheer white curtains, bright airy natural light, relaxed beach house aesthetic, interior photography, light tones

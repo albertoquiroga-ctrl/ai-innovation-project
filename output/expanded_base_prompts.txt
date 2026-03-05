@@ -1,0 +1,107 @@
+# Expanded prompts from: base-prompts.yaml
+# Generated — copy-paste into ComfyUI
+
+============================================================
+NEGATIVE PROMPT (use for all):
+============================================================
+deformed, ugly, bad anatomy, bad hands, extra fingers,  mutated hands, poorly drawn face, mutation, extra limbs, missing arms, blurry, bad quality, watermark, text, logo, cartoon, anime, 3d render, oversaturated
+
+------------------------------------------------------------
+[portrait_neutral]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, headshot portrait, neutral expression, soft natural window lighting, shallow depth of field,  Canon EOS R5, 85mm f/1.4, warm tones, editorial photography
+
+------------------------------------------------------------
+[portrait_smile]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, headshot portrait, genuine warm smile, soft golden hour lighting from the side, bokeh background, Canon EOS R5, 85mm f/1.4, warm color grading
+
+------------------------------------------------------------
+[portrait_thinking]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, looking slightly to the side thoughtfully, holding a pencil near her chin, natural daylight, Canon EOS R5, 85mm f/1.4, warm tones, candid feel
+
+------------------------------------------------------------
+[portrait_laughing]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, laughing naturally, eyes slightly closed, bright natural light, white wall background,  Canon EOS R5, 85mm f/1.4, editorial portrait
+
+------------------------------------------------------------
+[portrait_glasses]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing round reading glasses pushed  up on her head, hair in loose bun, focused expression, soft studio lighting, Canon EOS R5, 85mm f/1.4
+
+------------------------------------------------------------
+[studio_sweater]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing cream oversized knit sweater, standing in bright modern design studio, mood boards on wall behind, holding fabric samples, soft natural lighting from large windows, Canon EOS R5, 50mm f/1.8, interior design studio, warm tones
+
+------------------------------------------------------------
+[studio_apron]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing sage green apron over white t-shirt, hair in loose bun, standing at a work table with paint swatches, bright airy studio space with plants, natural daylight, Canon EOS R5, 50mm f/1.8, editorial photography
+
+------------------------------------------------------------
+[studio_linen]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing white linen button-up shirt, sleeves rolled up, leaning against a desk with design sketches, minimalist bright studio, natural light, Canon EOS R5, 50mm f/1.8
+
+------------------------------------------------------------
+[showroom_browsing]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing denim jacket over simple dress, browsing furniture in a modern showroom, touching a sofa fabric, bright retail lighting, candid shot, Canon EOS R5, 35mm f/2.0
+
+------------------------------------------------------------
+[cafe_sketching]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing cozy cardigan, sitting at a  cafe table, sketching in a notebook, coffee beside her, warm afternoon light through window, candid lifestyle photography, Canon EOS R5, 50mm f/1.8, shallow depth of field
+
+------------------------------------------------------------
+[measuring_wall]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing cream sweater and jeans, holding a tape measure against a wall in an empty room, natural daylight from windows, renovation setting, Canon EOS R5, 35mm f/2.0, full body shot, editorial
+
+------------------------------------------------------------
+[organizing_shelf]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing white linen shirt, organizing books on a wooden bookshelf, focused and happy, bright cozy living room, natural light, Canon EOS R5, 35mm f/2.0
+
+------------------------------------------------------------
+[paint_store]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing denim jacket, holding up  two paint sample cards and comparing them, standing in a  hardware store paint aisle, commercial lighting, Canon EOS R5, 50mm f/1.8, candid lifestyle
+
+------------------------------------------------------------
+[thrift_store]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing casual cardigan, examining  a vintage wooden chair at a flea market, outdoor natural light, slightly overcast, editorial lifestyle photography, Canon EOS R5, 35mm f/2.0
+
+------------------------------------------------------------
+[kitchen_reveal]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, wearing sage apron, standing proudly  in a beautifully renovated modern kitchen, arms slightly open, bright and airy space, natural window light, warm tones, Canon EOS R5, 24mm f/2.8, wide angle, interior photography
+
+------------------------------------------------------------
+[three_quarter_left]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, three-quarter view from left side, soft natural lighting, neutral background, portrait photography, Canon EOS R5, 85mm f/1.4
+
+------------------------------------------------------------
+[three_quarter_right]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, three-quarter view from right side, soft natural lighting, neutral background, portrait photography, Canon EOS R5, 85mm f/1.4
+
+------------------------------------------------------------
+[slight_above]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, shot from slightly above eye level, looking up at camera with friendly expression, natural daylight, Canon EOS R5, 50mm f/1.8, warm tones
+
+------------------------------------------------------------
+[profile_view]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, profile view looking to the right, soft window backlighting creating rim light on hair, Canon EOS R5, 85mm f/1.4, artistic portrait
+
+------------------------------------------------------------
+[from_behind_looking_back]
+------------------------------------------------------------
+sphie, a 28 year old woman with wavy light brown hair, green eyes,  light freckles, warm smile, thin gold chain necklace, looking back over her shoulder  with a smile, standing in a bright room, natural light, Canon EOS R5, 50mm f/1.8, candid editorial photography

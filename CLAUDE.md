@@ -73,8 +73,16 @@ python scripts/rename_and_pair.py --dir datasets/sophie_v1 --prefix "sophie"
 
 **PHASE 1: Identity & Dataset Preparation**
 - [x] Project structure created
-- [ ] Brand Bible finalized
-- [ ] Base prompts defined
+- [x] Brand Bible finalized
+- [x] Base prompts defined (35 prompts in base-prompts.yaml)
+- [x] Feed prompts defined (10 posts in feed-prompts.yaml)
+- [x] Story prompts defined (5 frames in story-prompts.yaml)
+- [x] Inpainting prompts defined (5 styles in inpainting-prompts.yaml)
+- [x] Training params configured (training-params.yaml)
+- [x] All scripts tested and working (prepare_dataset, rename_and_pair, caption_dataset)
+- [x] Expanded prompts generated (output/expanded_*.txt — ready to paste into ComfyUI)
+- [x] Dependencies installed (Pillow, PyYAML, requests)
+- [ ] ComfyUI installed locally (BLOCKER: GPU only has 3GB VRAM, see notes below)
 - [ ] Dataset images generated (manual in ComfyUI)
 - [ ] Dataset captioned and validated
 - [ ] LoRA trained on RunPod
