@@ -1,0 +1,38 @@
+# Generated images (too large for git)
+output/feed/*.png
+output/feed/*.jpg
+output/stories/*.png
+output/stories/*.jpg
+output/video/*
+
+# Dataset images (large files, manage separately)
+datasets/sophie_v1/*.png
+datasets/sophie_v1/*.jpg
+datasets/sophie_v1/*.jpeg
+datasets/sophie_v1/*.webp
+
+# LoRA model files (too large for git)
+*.safetensors
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.bak

@@ -1,0 +1,68 @@
+# LoRA Training Parameters for Sophie (sphie)
+# Use these as starting point — adjust based on results
+
+# --- MODEL ---
+base_model: "black-forest-labs/FLUX.1-dev"  # fp8 version for inference, full for training
+model_variant: "fp8"  # RunPod will use full precision for training
+
+# --- TRIGGER ---
+trigger_word: "sphie"
+# This word MUST appear at the start of every caption in the dataset
+# It's intentionally a non-English word so it doesn't conflict with anything
+
+# --- DATASET ---
+dataset_dir: "/workspace/sophie_dataset"  # Path on RunPod pod
+num_images: 35  # Target: 30-40 images
+resolution: 512  # Use 512 for first training, 768 if VRAM allows
+
+# --- TRAINING HYPERPARAMETERS ---
+
+# Conservative (Start Here)
+conservative:
+  steps: 1000
+  learning_rate: 1e-4
+  batch_size: 1
+  rank: 16  # LoRA rank — lower = smaller file, less detail captured
+  save_every_n_steps: 200  # Saves checkpoints at 200, 400, 600, 800, 1000
+  optimizer: "adamw8bit"
+  gradient_checkpointing: true  # Saves VRAM
+  notes: >
+    Good starting point. Produces a usable LoRA with minimal risk of 
+    overfitting. Test checkpoints at steps 600-800 first.
+
+# Balanced (After First Success)
+balanced:
+  steps: 1200
+  learning_rate: 2e-4
+  batch_size: 2
+  rank: 32  # Higher rank captures more detail
+  save_every_n_steps: 200
+  optimizer: "adamw8bit"
+  gradient_checkpointing: true
+  notes: >
+    Higher rank and learning rate. May produce better likeness but 
+    watch for overfitting (same expression/angle regardless of prompt).
+
+# Aggressive (If Dataset Is Very Clean)
+aggressive:
+  steps: 800
+  learning_rate: 4e-4
+  batch_size: 2
+  rank: 32
+  save_every_n_steps: 100
+  optimizer: "adamw8bit"
+  gradient_checkpointing: true
+  notes: >
+    Fast training with higher LR. Only use if your dataset is 
+    very clean and diverse. Higher risk of overfitting.
+
+# --- TESTING AFTER TRAINING ---
+test_strengths: [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+# Generate the same prompt at each strength to find the sweet spot
+# Good LoRA: works well across 0.5-1.0 range
+# Overfit LoRA: only looks right at narrow range (e.g., only 0.7)
+
+test_prompt: >
+  sphie, a 28 year old woman with wavy light brown hair and green eyes,
+  portrait photo, soft natural lighting, Canon EOS R5, 85mm f/1.4,
+  neutral background, warm tones

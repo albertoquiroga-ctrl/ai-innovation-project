@@ -1,0 +1,52 @@
+# Instagram Story Prompts
+# Vertical format (9:16), more casual/selfie-style than feed
+
+trigger_word: "sphie"
+
+story_frames:
+
+  - id: "story_01"
+    concept: "Morning selfie in studio with coffee"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      selfie angle slightly from above, holding a ceramic coffee mug,
+      wearing cozy cream cardigan, hair messy morning style,
+      bright modern studio in background with mood boards on wall,
+      morning natural light, iPhone selfie aesthetic, warm tones,
+      vertical 9:16 composition
+
+  - id: "story_02"
+    concept: "POV hand holding paint swatches"
+    prompt: >
+      first person point of view, a woman's hand holding three 
+      paint swatch cards in sage green, warm beige, and dusty blue,
+      held up against a white wall, natural daylight,
+      thin gold bracelet on wrist, iPhone photo style,
+      vertical 9:16 composition, shallow depth of field
+
+  - id: "story_03"
+    concept: "Behind the scenes desk shot"
+    prompt: >
+      overhead flat lay of a designer's desk, notebook with room 
+      sketches, fabric swatches, color palette cards, pencils,
+      small succulent plant, coffee cup ring stain, laptop edge visible,
+      warm natural light from above, aesthetic workspace photography,
+      vertical 9:16 composition
+
+  - id: "story_04"
+    concept: "Two color palettes side by side for poll"
+    prompt: >
+      two interior design mood board cards side by side on a wooden table,
+      left card: warm earth tones with terracotta and sage green swatches,
+      right card: cool coastal tones with dusty blue and white swatches,
+      labeled A and B, overhead shot, natural daylight,
+      clean minimal aesthetic, vertical 9:16 composition
+
+  - id: "story_05"
+    concept: "CTA - Sophie inviting room photos"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      friendly excited expression, pointing at camera playfully,
+      wearing white linen shirt, bright airy studio background,
+      natural light, engaging direct eye contact, warm smile,
+      iPhone selfie angle, vertical 9:16 composition

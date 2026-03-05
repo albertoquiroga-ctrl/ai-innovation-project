@@ -1,0 +1,152 @@
+# Base Prompts for Sophie (sphie) — Image Generation
+# Use these in ComfyUI with Flux Dev fp8 + Sophie LoRA
+# Always include the trigger word "sphie" at the start
+
+trigger_word: "sphie"
+
+# --- NEGATIVE PROMPT (use for all generations) ---
+negative: >
+  deformed, ugly, bad anatomy, bad hands, extra fingers, 
+  mutated hands, poorly drawn face, mutation, extra limbs,
+  missing arms, blurry, bad quality, watermark, text, logo,
+  cartoon, anime, 3d render, oversaturated
+
+# --- PHYSICAL CONSISTENCY ANCHORS ---
+# Include these descriptors in EVERY prompt to maintain identity
+identity_anchor: >
+  a 28 year old woman with wavy light brown hair, green eyes, 
+  light freckles, warm smile, thin gold chain necklace
+
+# --- BASE PORTRAIT PROMPTS (for LoRA training dataset) ---
+dataset_prompts:
+
+  # CLOSE-UP PORTRAITS (10 variations)
+  - name: "portrait_neutral"
+    prompt: >
+      sphie, {identity_anchor}, headshot portrait, neutral expression,
+      soft natural window lighting, shallow depth of field, 
+      Canon EOS R5, 85mm f/1.4, warm tones, editorial photography
+
+  - name: "portrait_smile"
+    prompt: >
+      sphie, {identity_anchor}, headshot portrait, genuine warm smile,
+      soft golden hour lighting from the side, bokeh background,
+      Canon EOS R5, 85mm f/1.4, warm color grading
+
+  - name: "portrait_thinking"
+    prompt: >
+      sphie, {identity_anchor}, looking slightly to the side thoughtfully,
+      holding a pencil near her chin, natural daylight,
+      Canon EOS R5, 85mm f/1.4, warm tones, candid feel
+
+  - name: "portrait_laughing"
+    prompt: >
+      sphie, {identity_anchor}, laughing naturally, eyes slightly closed,
+      bright natural light, white wall background, 
+      Canon EOS R5, 85mm f/1.4, editorial portrait
+
+  - name: "portrait_glasses"
+    prompt: >
+      sphie, {identity_anchor}, wearing round reading glasses pushed 
+      up on her head, hair in loose bun, focused expression,
+      soft studio lighting, Canon EOS R5, 85mm f/1.4
+
+  # HALF-BODY SHOTS (10 variations)
+  - name: "studio_sweater"
+    prompt: >
+      sphie, {identity_anchor}, wearing cream oversized knit sweater,
+      standing in bright modern design studio, mood boards on wall behind,
+      holding fabric samples, soft natural lighting from large windows,
+      Canon EOS R5, 50mm f/1.8, interior design studio, warm tones
+
+  - name: "studio_apron"
+    prompt: >
+      sphie, {identity_anchor}, wearing sage green apron over white t-shirt,
+      hair in loose bun, standing at a work table with paint swatches,
+      bright airy studio space with plants, natural daylight,
+      Canon EOS R5, 50mm f/1.8, editorial photography
+
+  - name: "studio_linen"
+    prompt: >
+      sphie, {identity_anchor}, wearing white linen button-up shirt,
+      sleeves rolled up, leaning against a desk with design sketches,
+      minimalist bright studio, natural light, Canon EOS R5, 50mm f/1.8
+
+  - name: "showroom_browsing"
+    prompt: >
+      sphie, {identity_anchor}, wearing denim jacket over simple dress,
+      browsing furniture in a modern showroom, touching a sofa fabric,
+      bright retail lighting, candid shot, Canon EOS R5, 35mm f/2.0
+
+  - name: "cafe_sketching"
+    prompt: >
+      sphie, {identity_anchor}, wearing cozy cardigan, sitting at a 
+      cafe table, sketching in a notebook, coffee beside her,
+      warm afternoon light through window, candid lifestyle photography,
+      Canon EOS R5, 50mm f/1.8, shallow depth of field
+
+  # FULL-BODY / ENVIRONMENTAL (10 variations)
+  - name: "measuring_wall"
+    prompt: >
+      sphie, {identity_anchor}, wearing cream sweater and jeans,
+      holding a tape measure against a wall in an empty room,
+      natural daylight from windows, renovation setting,
+      Canon EOS R5, 35mm f/2.0, full body shot, editorial
+
+  - name: "organizing_shelf"
+    prompt: >
+      sphie, {identity_anchor}, wearing white linen shirt,
+      organizing books on a wooden bookshelf, focused and happy,
+      bright cozy living room, natural light, Canon EOS R5, 35mm f/2.0
+
+  - name: "paint_store"
+    prompt: >
+      sphie, {identity_anchor}, wearing denim jacket, holding up 
+      two paint sample cards and comparing them, standing in a 
+      hardware store paint aisle, commercial lighting,
+      Canon EOS R5, 50mm f/1.8, candid lifestyle
+
+  - name: "thrift_store"
+    prompt: >
+      sphie, {identity_anchor}, wearing casual cardigan, examining 
+      a vintage wooden chair at a flea market, outdoor natural light,
+      slightly overcast, editorial lifestyle photography,
+      Canon EOS R5, 35mm f/2.0
+
+  - name: "kitchen_reveal"
+    prompt: >
+      sphie, {identity_anchor}, wearing sage apron, standing proudly 
+      in a beautifully renovated modern kitchen, arms slightly open,
+      bright and airy space, natural window light, warm tones,
+      Canon EOS R5, 24mm f/2.8, wide angle, interior photography
+
+  # DIFFERENT ANGLES (5 variations)
+  - name: "three_quarter_left"
+    prompt: >
+      sphie, {identity_anchor}, three-quarter view from left side,
+      soft natural lighting, neutral background, portrait photography,
+      Canon EOS R5, 85mm f/1.4
+
+  - name: "three_quarter_right"
+    prompt: >
+      sphie, {identity_anchor}, three-quarter view from right side,
+      soft natural lighting, neutral background, portrait photography,
+      Canon EOS R5, 85mm f/1.4
+
+  - name: "slight_above"
+    prompt: >
+      sphie, {identity_anchor}, shot from slightly above eye level,
+      looking up at camera with friendly expression, natural daylight,
+      Canon EOS R5, 50mm f/1.8, warm tones
+
+  - name: "profile_view"
+    prompt: >
+      sphie, {identity_anchor}, profile view looking to the right,
+      soft window backlighting creating rim light on hair,
+      Canon EOS R5, 85mm f/1.4, artistic portrait
+
+  - name: "from_behind_looking_back"
+    prompt: >
+      sphie, {identity_anchor}, looking back over her shoulder 
+      with a smile, standing in a bright room, natural light,
+      Canon EOS R5, 50mm f/1.8, candid editorial photography

@@ -1,0 +1,101 @@
+# Instagram Feed Prompts — Post-LoRA Content Generation
+# These are used AFTER the LoRA is trained to generate the demo feed
+
+trigger_word: "sphie"
+
+feed_posts:
+
+  - id: "feed_01"
+    concept: "Sophie in her studio with mood boards"
+    caption_idea: "Every room starts as a feeling. Today's mood board is giving 'quiet coastal morning.' 🌊"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      standing in front of a large mood board covered in fabric swatches, 
+      paint chips, and magazine cutouts in sage green and sandy beige tones,
+      wearing cream oversized knit sweater, bright modern studio,
+      soft natural window light, Canon EOS R5, 50mm, editorial interior design
+
+  - id: "feed_02"
+    concept: "Close-up measuring a wall with tape measure"
+    caption_idea: "Measure twice, rearrange the furniture seventeen times. 📐"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      holding a yellow tape measure against a white wall, focused expression,
+      wearing white linen shirt with sleeves rolled up, empty room being renovated,
+      natural daylight from bare windows, Canon EOS R5, 35mm, candid documentary
+
+  - id: "feed_03"
+    concept: "Choosing between paint swatches"
+    caption_idea: "The difference between 'Ivory Lace' and 'Antique White' matters more than you think."
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      holding two paint sample cards close to a wall and squinting at them,
+      wearing sage green apron over white tee, hair in loose bun,
+      hardware store paint aisle, commercial fluorescent lighting,
+      Canon EOS R5, 50mm, lifestyle candid photography
+
+  - id: "feed_04"
+    concept: "Sophie arranging books on a beautiful shelf"
+    caption_idea: "The secret to styling a bookshelf? Leave 30% of it empty. Negative space is your friend."
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      carefully placing books on a styled wooden bookshelf with plants and ceramics,
+      wearing cozy cardigan, warm living room setting, afternoon golden light,
+      Canon EOS R5, 50mm, shallow depth of field, lifestyle editorial
+
+  - id: "feed_05"
+    concept: "Working on laptop showing a room render"
+    caption_idea: "Client just approved the final design. Seeing their vision come together never gets old. ✨"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      sitting at a clean wooden desk looking at a laptop screen, satisfied smile,
+      wearing cream sweater, modern studio with plants in background,
+      soft natural light from large window, Canon EOS R5, 50mm, over-shoulder angle
+
+  - id: "feed_06"
+    concept: "Sophie at a flea market finding treasure"
+    caption_idea: "Found this mid-century side table for $25. The internet would charge you $400. 🏷️"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      crouching next to a vintage wooden side table at an outdoor flea market,
+      excited expression, wearing denim jacket and casual dress, 
+      overcast natural light, other vendors in soft background,
+      Canon EOS R5, 35mm, candid lifestyle documentary
+
+  - id: "feed_07"
+    concept: "Before/After room transformation — BEFORE"
+    caption_idea: "Before → (swipe for the after!) This living room had great bones but zero personality."
+    prompt: >
+      a plain, slightly cluttered living room with beige walls, 
+      mismatched old furniture, poor lighting, no decorations,
+      unflattering overhead fluorescent light, real estate listing style photo,
+      wide angle, Canon EOS R5, 24mm
+
+  - id: "feed_08"
+    concept: "Before/After room transformation — AFTER"
+    caption_idea: "After ✨ Same room, same budget-friendly approach. Color, light, and intention."
+    prompt: >
+      a beautifully designed modern living room with sage green accent wall,
+      warm beige sofa with terracotta throw pillows, wooden coffee table,
+      plants on floating shelves, warm table lamps creating ambient glow,
+      golden hour light through sheer curtains, interior design magazine photo,
+      Canon EOS R5, 24mm, warm color grading, editorial
+
+  - id: "feed_09"
+    concept: "Sophie selecting fabrics in a showroom"
+    caption_idea: "Texture tells the story your eyes can't explain. Always touch before you choose."
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      running her hand across different fabric bolts in a textile showroom,
+      thoughtful expression, wearing white linen button-up, bright showroom lighting,
+      shallow depth of field, Canon EOS R5, 85mm, editorial
+
+  - id: "feed_10"
+    concept: "Cozy café working on sketches"
+    caption_idea: "Sunday mornings are for coffee and floor plans. What are you working on today?"
+    prompt: >
+      sphie, a 28 year old woman with wavy light brown hair and green eyes,
+      sitting at a small café table, sketching a room layout in a notebook,
+      coffee cup beside her, wearing cozy oversized cardigan, reading glasses 
+      pushed up on head, warm natural light through café window, 
+      Canon EOS R5, 50mm, shallow depth of field, lifestyle photography
