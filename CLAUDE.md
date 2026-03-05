@@ -21,6 +21,8 @@ This is the MVP/proof-of-concept for **Alter**, a network of AI-native influence
 sophie-ai-influencer/
 ├── CLAUDE.md                    # You are here
 ├── README.md                    # Project overview
+├── notebooks/
+│   └── generate_dataset_colab.ipynb  # Upload to Google Colab to generate dataset
 ├── docs/
 │   ├── brand-bible.md           # Sophie's identity, visual specs, personality
 │   └── content-calendar.md      # Content plan for MVP demo
@@ -82,8 +84,9 @@ python scripts/rename_and_pair.py --dir datasets/sophie_v1 --prefix "sophie"
 - [x] All scripts tested and working (prepare_dataset, rename_and_pair, caption_dataset)
 - [x] Expanded prompts generated (output/expanded_*.txt — ready to paste into ComfyUI)
 - [x] Dependencies installed (Pillow, PyYAML, requests)
-- [ ] ComfyUI installed locally (BLOCKER: GPU only has 3GB VRAM, see notes below)
-- [ ] Dataset images generated (manual in ComfyUI)
+- [x] Colab notebook created for dataset generation (notebooks/generate_dataset_colab.ipynb)
+- [ ] ~~ComfyUI installed locally~~ (SKIPPED: GPU 3GB VRAM + 6GB RAM + 27GB disk = impossible)
+- [ ] Dataset images generated (via Google Colab — Flux.1-schnell on free T4 GPU)
 - [ ] Dataset captioned and validated
 - [ ] LoRA trained on RunPod
 
