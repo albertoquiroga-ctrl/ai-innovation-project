@@ -45,3 +45,19 @@ cat config/comfyui-setup.md
 ## Project Structure
 
 See [CLAUDE.md](CLAUDE.md) for full structure and development instructions.
+
+## Utility Commands
+
+```bash
+# Validate image/caption pairing and quality checks
+python scripts/prepare_dataset.py --dir datasets/sophie_v1
+
+# Add/fix trigger words and generate caption stubs
+python scripts/caption_dataset.py --dir datasets/sophie_v1 --trigger sphie --stats
+
+# Rename images sequentially and create paired .txt stubs
+python scripts/rename_and_pair.py --dir datasets/sophie_v1 --prefix sophie --dry-run
+
+# Build a checkpoint x strength test manifest for LoRA QA
+python scripts/test_lora_strengths.py --checkpoints-dir output/loras --output-dir output/lora_tests --dry-run
+```
